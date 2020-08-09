@@ -110,7 +110,7 @@
     display: block;
 }
 
-.teacher-item footer button {
+.teacher-item footer .button {
     width: 20rem;
     height: 5.6rem;
     margin-left: 1.6rem;
@@ -122,6 +122,7 @@
 
     border: 0;
     border-radius: 0.8rem;
+    text-decoration: none;
 
     display: flex;
     justify-content: space-evenly;
@@ -130,7 +131,7 @@
     transition: background 0.2s;
 }
 
-.teacher-item footer button:hover {
+.teacher-item footer .button:hover {
     background-color: var(--color-secondary-dark);
 }
 
